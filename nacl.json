@@ -1,0 +1,36 @@
+{
+    "NetworkAcl": {
+        "Associations": [],
+        "Entries": [
+            {
+                "CidrBlock": "0.0.0.0/0",
+                "Egress": true,
+                "IcmpTypeCode": {},
+                "PortRange": {},
+                "Protocol": "-1",
+                "RuleAction": "deny",
+                "RuleNumber": 32767
+            },
+            {
+                "CidrBlock": "0.0.0.0/0",
+                "Egress": false,
+                "IcmpTypeCode": {},
+                "PortRange": {},
+                "Protocol": "-1",
+                "RuleAction": "deny",
+                "RuleNumber": 32767
+            }
+        ],
+        "IsDefault": false,
+        "NetworkAclId": "acl-0eaf88bc993b618c6",
+        "Tags": [
+            {
+                "Key": "Name",
+                "Value": "acl_dany"
+            }
+        ],
+        "VpcId": "vpc-0ebcdb39f7a526ef9",
+        "OwnerId": "747082607185"
+    },
+    "ClientToken": "d4ebeff5-ec4b-4542-a7e9-1b081a551b83"
+}

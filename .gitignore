@@ -1,0 +1,12 @@
+# Clés SSH
+*.pem
+
+# Terraform state (contient des données sensibles AWS)
+*.tfstate
+*.tfstate.backup
+
+# Répertoire des providers Terraform (binaires lourds)
+.terraform/
+
+# Variables sensibles
+terraform.tfvars
